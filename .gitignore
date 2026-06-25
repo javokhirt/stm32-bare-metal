@@ -1,0 +1,18 @@
+# not committing build artifacts
+**/Build/
+**/build/
+*.o
+*.elf
+*.bin
+*.hex
+*.map
+*.d
+*.lst
+*.su
+
+# macOS files
+.DS_Store
+
+# editor files
+.vscode/
+.cursor/
