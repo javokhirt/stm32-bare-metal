@@ -9,7 +9,7 @@ Hardware = STM32F411RE
 #Common is a path to linker script, satrtup file, and header files
 
 #Source Files
-C_Sources = ./Source/main.c ./Source/uart.c ./Source/tim.c
+C_Sources = $(wildcard ./Source/*.c)
 ASM_Sources = $(Common)/startup_stm32f411retx.s
 
 #Toolchain 
