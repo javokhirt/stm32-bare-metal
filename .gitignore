@@ -1,18 +1,27 @@
-# not committing build artifacts
-**/Build/
-**/build/
+# build artifacts
+build/
 *.o
 *.elf
 *.bin
 *.hex
 *.map
+*.dis
 *.d
 *.lst
 *.su
 
-# macOS files
-.DS_Store
+# reference PDFs — link them, don't track them
+*.pdf
 
-# editor files
+# python
+__pycache__/
+*.pyc
+
+# editor
 .vscode/
 .cursor/
+*.code-workspace
+
+# OS
+.DS_Store
+Thumbs.db
